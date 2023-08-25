@@ -8,7 +8,9 @@ N_round sets the number of layers the code will work. In step one  the code will
 
 # Example
 
+```
 first_test =  keyword_mind_map(path_kw= "path to your keywords",path_target="path to the target time series",
                                date_start='2004-01-01',date_end="2019-11-29",region="US",causal_threshold=1,sales_start_date = "2007-05")  
 
 map_2_layer = keyword_map(n_round = 3)
+```
